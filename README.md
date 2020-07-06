@@ -30,7 +30,7 @@ If you do not know how to use nathan.db, follow the examples below to get you st
 
 To create a new MongoDB Client, use this code:
 
-![Create Client](https://discord.com/channels/716596041327312907/716596041327312910/726815033950208022)
+https://discord.com/channels/716596041327312907/716596041327312910/726815033950208022
 <br>
 
 This will save the data that you have inputted through your database. This will save a new Schema/Collection into your MongoDB Atlas, with the properties in the "schema". This means the name would be the name inputted in "name" and the MongoURI would be "mongoURI". The last line waits until it connects to your database, and after it has done that, it saves all the data.
@@ -39,7 +39,7 @@ This will save the data that you have inputted through your database. This will 
 
 Here are some examples to introduce you to setting, getting, and finding values.
 
-![Setting getting hasing data](https://discord.com/channels/716596041327312907/716596041327312910/726815036902735923)
+https://discord.com/channels/716596041327312907/716596041327312910/726815036902735923
 <br>
 This example saves the key of "Key1" with the value of "Value" to the database. Then, it will console.log "Value" as that is the value of the key. When awaiting db.has it will return true or false. In this example it would console.log true, as Key1 exists. It would then console.log false as Key2 does not exist.
 <br>
